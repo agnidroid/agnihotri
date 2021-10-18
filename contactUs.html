@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Abhishek raj agnihotri</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--- Peloader -->
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <style>
+        main>section.contact {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+        }
+
+        main>section.contact>header>h1 {
+            font-size: 26px;
+            margin-top: 1rem;
+        }
+
+        main>section.contact>div.container {
+            display: flex;
+            align-items: center;
+            max-width: 900px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* main > section.contact > div.container > section {
+                flex: 1;
+            } */
+        main>section.contact>div.container>section:first-child {
+            flex: 1.1;
+            border-right: 2px dashed lightgrey;
+            padding-right: 2rem;
+        }
+
+        main>section.contact>div.container>section:last-child {
+            flex: 0.9;
+        }
+
+        main>section.contact>div.container>section>form>button {
+            max-width: 150px;
+            margin-bottom: 1rem;
+            padding: 0;
+            height: 40px;
+        }
+
+        main>section.contact>div.container>section.social-media {
+            padding: 0 2rem;
+        }
+
+        main>section.contact>div.container>section.social-media>div>p {
+            display: flex;
+            align-items: center;
+            /* padding: 0 0 0 2rem ; */
+        }
+
+        main>section.contact>div.container>section.social-media>div>p>i {
+            flex: 0.3;
+            font-size: 35px;
+        }
+
+        main>section.contact>div.container>section.social-media>div>p>span {
+            flex: 1.7;
+        }
+
+        main>section.contact>div.container>section.social-media>div:last-child {
+            display: flex;
+            justify-content: center;
+        }
+
+        main>section.contact>div.container>section.social-media>div>a {
+            text-decoration: none;
+            color: rgba(51, 51, 51, 0.687);
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+            transition: 0.6s;
+            height: 35px;
+            display: grid;
+            place-items: center;
+            width: 35px;
+        }
+
+        main>section.contact>div.container>section.social-media>div>a.fa-instagram:hover {
+            color: #fff;
+            background-color: rgb(191, 10, 41);
+        }
+
+        main>section.contact>div.container>section.social-media>div>a.fa-twitter:hover {
+            color: #fff;
+            background-color: rgba(58, 138, 235, 0.904);
+        }
+
+        main>section.contact>div.container>section.social-media>div>a.fa-facebook:hover {
+            color: #fff;
+            background-color: rgb(10, 77, 171);
+        }
+
+        main>section.contact>div.container>section.social-media>div>a.fa-envelope:hover {
+            color: #fff;
+            background-color: red;
+        }
+
+        main>section.contact>div.container>section.social-media>div>a.fa-linkedin:hover {
+            color: #fff;
+            background-color: rgba(58, 138, 235, 0.904);
+        }
+
+        main>section.contact>div.container>section.social-media>div:first-child {
+            border-bottom: 1.1px solid grey;
+        }
+
+        main>section.contact>div.container>section.social-media>div:last-child {
+            margin-top: 1rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            main>section.contact>div.container {
+                flex-direction: column;
+            }
+
+            main>section.contact>div.container {
+                max-width: 500px;
+            }
+
+            main>section.contact>div.container>section {
+                width: 100%;
+            }
+
+            main>section.contact>div.container>section:first-child {
+                border-right: none;
+                padding-right: 0;
+            }
+
+            main>section.contact>div.container>section:last-child {
+                margin-top: 2rem;
+            }
+
+            main>section.contact>div.container>section.social-media {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!---- HEADER ----->
+    <header id="myheader">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <div id="logo-name">
+                    <h2>ABHISHEK R.AGNIHOTRI</h2>
+                    <h4>Software Engineer</h4>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+            </div>
+        </nav>
+    </header>
+
+
+    <main id="home">
+        <section class="container-fluid contact">
+            <header class="border-bottom">
+                <h1 class="text-uppercase"># contact</h1>
+            </header>
+            <!-- <p class="text-center text-capitalize">we'd <span class="text-danger">❤</span> to help!</p> -->
+
+
+            <div class="container">
+                <section class="form-section">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName1">Name *</label>
+                            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp"
+                                placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address *</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" placeholder="Your message..."
+                                id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </section>
+                <section class="social-media">
+                    <div>
+                        <p><i class="fa fa-map-marker"></i> <span>Ramabandh Aurangabad Bihar</span></p>
+                        <p><i class="fa fa-phone"></i> <span>8521571295</span></p>
+                        <p><i class="fa fa-envelope"></i> <span>agni7601083@gmail.com</span></p>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://github.com/agnidroid" target="_blank" title="github" class="fa fa-github"></a>
+                        <a href="mailto:agni761083@gmail.com" target="_blank" title="Mail" class="fa fa-envelope"></a>
+                        <a href="http://facebook.com/abhishek.r.agnihotri" target="_blank" title="Facebook"
+                            class="fa fa-facebook"></a>
+                        <a href="http://twitter.com/@abhishekrajagn2" target="_blank" title="Twitter"
+                            class="fa fa-twitter"></a>
+                        <a href="http://instagram.com/arajagnihotri" target="_blank" title="Instagram"
+                            class="fa fa-instagram"></a>
+                        <a href="http://https://www.linkedin.com/in/abhishek-raj-agnihotri-5b5058172/" target="_blank"
+                            title="Linkedin" class="fa fa-linkedin"></a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <!---- FOOTER ----->
+    <footer>
+        <ul>
+            <li style="display: flex;flex-direction: column;">
+                <label style="padding: 0 0 20px 0;">CONTACT ME:</label>
+                <span class="social-media">
+                    <a href="https://github.com/agnidroid" target="_blank" title="github" class="fa fa-github"></a>
+                    <a href="mailto:agni761083@gmail.com" target="_blank" title="Mail" class="fa fa-envelope"></a>
+                    <a href="http://facebook.com/abhishek.r.agnihotri" target="_blank" title="Facebook"
+                        class="fa fa-facebook" style="padding: 15px 18px;"></a>
+                    <a href="http://twitter.com/@abhishekrajagn2" target="_blank" title="Twitter"
+                        class="fa fa-twitter"></a>
+                    <a href="http://instagram.com/arajagnihotri" target="_blank" title="Instagram"
+                        class="fa fa-instagram"></a>
+                    <a href="http://https://www.linkedin.com/in/abhishek-raj-agnihotri-5b5058172/" target="_blank"
+                        title="Linkedin" class="fa fa-linkedin"></a>
+                </span>
+            </li>
+            <li> <span style="margin: 0 0 0 0;"> &copy; 2020 copyright Abhishek-raj-agnihotri</span></li>
+        </ul>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-angle-double-up"></button>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!---- Javascript ---->
+    <script src="js/myscript.js"></script>
+</body>
+
+</html>

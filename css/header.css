@@ -1,0 +1,117 @@
+header#myheader{
+    display: grid;
+    padding: 0;
+    color: ivory;
+    position: sticky;
+    background-color: #123;
+    width: 100%;
+    top: 3px;
+    border-top: 1px #262626 solid;
+}
+header#myheader > nav.navbar {
+    background-color: #123 !important;
+    color: ivory;
+}
+header#myheader > nav.navbar .navbar-toggler {
+    margin-left: auto;
+}
+header#myheader > nav.navbar > a.navbar-brand h4{
+    font-size: 15px;
+}
+header#myheader > nav.navbar > a.navbar-brand h2{
+    font-size: 24px !important;
+    margin-bottom: 0;
+}
+/* header#myheader div{
+    margin: 0 0 0 15px;
+} */
+/* header#myheader nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+} */
+/* header#myheader nav ul{
+    display: flex;
+} */
+/* special chars */
+/* .header#myheader{
+    display: flex;
+    flex-direction: column;
+} */
+/* .logo-name{
+    padding-bottom: 10px;
+} */
+/* end */
+/* effects */
+.active{
+    color: gold;
+}
+/* header#myheader nav ul li{
+    padding: 5px 15px;
+} */
+/* header#myheader nav .fa{
+    top: 40px;
+    border: none;
+    font-size: 25px;
+    margin: 0 0 5px 0;
+    display: none;
+    position: fixed;
+    color: ivory;
+    background-color: transparent;
+} */
+@media screen and (max-width: 1200px){
+    /* header#myheader nav{
+        justify-content: flex-end;
+    }
+    header#myheader ul{
+        margin: 0 10px 0 0;
+    }
+    header#myheader nav ul li{
+        padding: 5px 7px;
+    } */
+}
+@media screen and (max-width: 600px){
+    /* header#myheader{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    } */
+    /* header#myheader nav{
+        display: flex;
+        flex-direction: column;
+    }
+    header#myheader nav #dropdown{
+	    border-top: 2px red solid;
+        display: none;
+        top: 62px;
+        background: #0b131b91;
+	    margin: 10px 0 0 0px;
+        width: 100%;
+    }
+    header#myheader nav ul li{
+        border-bottom: 1px solid #44444487;
+        padding: inherit 40px;
+    }
+    header#myheader nav ul{
+        display: none;
+    }
+    header#myheader nav .fa{
+        display: block;
+    }
+    header#myheader nav{
+        font-size: 13px;
+    } */
+
+    header#myheader > nav.navbar > a.navbar-brand h4{
+        font-size: 13px;
+    }
+    header#myheader > nav.navbar > a.navbar-brand h2{
+        font-size: 21px !important;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 370px){
+        /* header#myheader{
+        display: flex;
+        flex-direction: column;
+    } */
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+button{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Preloader */
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.conatainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ring{
+    box-shadow: 0px 4px 4px ivory;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.text{
+    position: absolute;
+    left: 50%;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px ivory;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.l-row{
+    display: flex;
+    font-size: 13px;
+    width: 100vw;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 17px;
+}
+.l-row-col a{
+    padding: 0 10px;
+}
+.l-row-col{
+    color: ivory;
+    margin: 0 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px whitesmoke;
+}
+.l-row-col button{
+    color: ivory;
+
+}

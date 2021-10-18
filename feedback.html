@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Abhishek raj agnihotri</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!--- Peloader -->
+  <link rel="stylesheet" href="css/preloader.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="js/pace.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+  <style>
+    /* body{background-image:url(images/giphy.webp);background-size:cover;}  */
+    /* fieldset{max-width:40%;height:auto;margin:0px auto;} */
+    main {
+      /* margin: 50px 0; */
+      padding: 0 0 3rem 0;
+    }
+
+    main>.container {
+      max-width: 550px;
+      margin: auto;
+      background-color: rgba(220, 220, 220, 0.585);
+      border-radius: 5px 5px 0 0;
+      padding: 2rem;
+    }
+
+    /* main > .container */
+    .form-group {
+      /* display: flex; */
+      /* justify-content: sp; */
+    }
+  </style>
+</head>
+
+<body background="logo.png">
+  <!---- HEADER ----->
+  <header id="myheader">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <div id="logo-name">
+          <h2>ABHISHEK R.AGNIHOTRI</h2>
+          <h4>Software Engineer</h4>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact</a>
+          </li>
+      </div>
+    </nav>
+  </header>
+  <!--- MAIN ----->
+  <main>
+    <header class="border-bottom pt-3 pl-2">
+      <h3>#FeedBack</h3>
+    </header>
+    <div class="container mt-2">
+
+      <form action="feedback.php" method="POST">
+        <div class="form-group">
+          <label for="exampleInputName">FullName</label>
+          <input type="text" class="form-control" id="exampleInputName" name="fullName" placeholder="Enter FullName">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPhone">Phone</label>
+          <input name="phone" type="tel" class="form-control" id="exampleInputPhone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+          <!-- <label for="exampleFormControlFile1">Example file input</label> -->
+          <input name="file" type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlDate1">DOB</label>
+          <input name="dob" type="date" class="form-control-date" id="exampleFormControlDate1">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea name="userMsg" placeholder="Enter message" class="form-control" id="exampleFormControlTextarea1"
+            rows="3"></textarea>
+        </div>
+
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <form action="">
+  </main>
+  <!---- FOOTER ----->
+  <footer>
+    <ul>
+      <li style="display: flex;flex-direction: column;">
+        <label style="padding: 0 0 20px 0;">CONTACT ME:</label>
+        <span>
+          <a href="https://github.com/agnidroid" target="_blank" title="github" class="fa fa-github"></a>
+          <a href="mailto:agni761083@gmail.com" title="Mail" class="fa fa-envelope"></a>
+          <a href="http://facebook.com/abhishek.r.agnihotri" title="Facebook" class="fa fa-facebook"
+            style="padding: 15px 18px;"></a>
+          <a href="http://twitter.com/@abhishekrajagn2" title="Twitter" class="fa fa-twitter"></a>
+          <a href="http://instagram.com/arajagnihotri" title="Instagram" class="fa fa-instagram"></a>
+          <a href="http://https://www.linkedin.com/in/abhishek-raj-agnihotri-5b5058172/" title="Linkedin"
+            class="fa fa-linkedin"></a>
+        </span>
+      </li>
+      <li> <span style="margin: 0 0 0 0;"> &copy; 2020 copyright Abhishek-raj-agnihotri</span></li>
+    </ul>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-angle-double-up"></button>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!---- Javascript ---->
+  <script src="js/myscript.js"></script>
+</body>
+
+</html>

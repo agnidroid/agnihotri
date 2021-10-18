@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+.conatainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ring{
+    box-shadow: 0px 4px 4px black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: loading 0.6s infinite;
+}
+.text{
+    position: absolute;
+    left: 50%;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px black;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
