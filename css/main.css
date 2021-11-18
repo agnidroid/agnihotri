@@ -18,6 +18,7 @@ main section picture{
 main section div button{
     width: 160px;
     font-size: 20px;
+    outline: none !important;
     height: 160px; 
     background-color: silver;
     border-radius: 50%;
